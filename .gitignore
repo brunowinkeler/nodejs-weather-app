@@ -102,3 +102,8 @@ dist
 
 # TernJS port file
 .tern-port
+
+# User-defined files
+keys.json
+
+# User-defined folders
