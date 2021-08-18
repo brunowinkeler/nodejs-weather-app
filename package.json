@@ -1,0 +1,23 @@
+{
+  "name": "weather-app",
+  "version": "1.0.0",
+  "description": "An Weather app using node js",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brunowinkeler/nodejs-weather-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brunowinkeler/nodejs-weather-app/issues"
+  },
+  "homepage": "https://github.com/brunowinkeler/nodejs-weather-app#readme",
+  "dependencies": {
+    "request": "^2.88.2"
+  }
+}
