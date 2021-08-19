@@ -2,7 +2,7 @@ const fs = require('fs')
 
 const loadKey = (apiName) => {
     try {
-        const dataBuffer = fs.readFileSync('keys.json')
+        const dataBuffer = fs.readFileSync('./utils/keys.json')
         const dataJSON = dataBuffer.toString()
         const jsonObj = JSON.parse(dataJSON)
 
