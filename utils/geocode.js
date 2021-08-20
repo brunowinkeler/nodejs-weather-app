@@ -1,8 +1,8 @@
 const request = require('request')
-const keys = require('./keysManip')
+const keyManip = require('./keysManip')
 
 const geocode = (address, callback) => {
-    const mapbox_key = keys.loadKey('mapbox')
+    const mapbox_key = keyManip.loadKey('mapbox')
     const url = 'https://api.mapbox.com/geocoding/v5/mapbox.places/'+ encodeURIComponent(address) +'.json?access_token='+ mapbox_key +'&limit=1'
 
     request({ url: url, json: true }, (error, response) => {
